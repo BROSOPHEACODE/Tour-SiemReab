@@ -1,0 +1,203 @@
+body{
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+ .Siemreap{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(/Images/Angkor\ Logo\ New.jpg); */
+    background-image: url(/Images/Angkor2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button .danger{
+    color: red ;
+
+}
+/****About Siem Reamp***/
+.about-Sr >.card >.description{
+    position: absolute;
+    top: 20;
+    left: 240px;
+    bottom: 30px;
+    color: white;
+    opacity: 0.9;
+    z-index: 15;
+    
+}
+.about-Sr >.card{
+    width: 98%;
+   
+}
+.about-Sr >.card > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*****Video Youtube About Angkor Watt******/
+.Youtube >.card {
+    width: 720px;
+    height: 345px;
+    overflow: hidden;
+}
+.Youtube >.card iframe{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+/****Reponsive About Siem Reamp***/
+@media screen and (min-width: 320px)and (max-width: 759px) {
+
+    .about-Sr >.card > img{
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-Sr >.card >.description{
+        position: absolute;
+        top: 20;
+        left: 30%;
+        bottom: 30px;
+        color: white;
+        opacity: 0.9;
+        z-index: 15;
+        
+    }
+
+    .Youtube p{
+        text-align: start;
+    }
+    .Youtube >.card {
+        width: 100%;
+        height: 345px;
+        overflow: hidden;
+    }
+    .Youtube >.card iframe{
+        width: 100%;
+        height: 100vh;
+       
+    }
+}
+@media screen and (min-width: 760px)and (max-width: 1000px) {
+    .Youtube >.card {
+       width: 100%;
+        height: 345px;
+        overflow: hidden;
+    }
+    .Youtube >.card iframe{
+        width: 100%;
+        height: 100vh;
+       
+    }
+}
+
+/******About Brasat in  Siem Reap******/
+.card > img{
+    width: 100%;
+    height: 300px;
+
+
+}
+
+/******រមណីយដ្ធានក្នុងខេត្តសៀមរាម******/
+.Bike-Cycle >.card{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-color: black;
+    width: 400px;
+}
+.Bike-Cycle >.card img{
+  
+    height: 500px;
+    width: 100%;
+    transform: scale(1);
+    transition:  transform 0.3s ; 
+    
+}
+/******Reponsive កន្លែងសម្រាប់ជួលខោអាវ******/
+/******ភោជនីយដ្ធានក្នុងខេត្តសៀមរាម******/
+.Bike-Cycle >.card{
+    width: 100%;
+   
+}
+.Bike-Cycle >.card img{
+    width: 100%;
+    height: 400px;
+ 
+}
+
+/******Reponsive  ភោជនីយដ្ធានក្នុងខេត្តសៀមរាម******/
+@media screen and (min-width: 320px)and (max-width: 759px) {
+    .Food-SiemReab >.card{
+        width: 100%;
+     
+    }
+    .Food-SiemReab >.card img{
+        width: 100%;
+
+    }
+}
+
+
+/*--ផែនទីខេត្តសៀមរាម--*/
+
+.map-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*--Reponsive ផែនទីខេត្តសៀមរាម--*/
+@media screen and (min-width: 320px)and (max-width: 759px) {
+    .map-responsive {
+   
+        width: 100%;
+        height: 500px
+    }
+   
+  
+}
+
+
+.footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 100px;
+    color: white;
+    padding: 50px;
+}
+
+.my-list {
+    list-style: none;      /* ដកពូយ */
+    padding: 0;            /* ដកចំហ */
+    font-family: 'Khmer OS Battambang', 'Siemreap', sans-serif; /* អក្សរស្មើៗគ្នា */
+    line-height: 1.8;      /* ធ្វើឲ្យចន្លោះស្មើៗគ្នា */
+  }
+.card img{
+    object-fit: cover;
+}
+.Tour >.carddd {
+    width: 130px;
+    height: 200px;
+
+}
+.Tour >.carddd img{
+    width: 100%;
+    padding-top: 5%;
+}
